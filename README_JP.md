@@ -56,7 +56,6 @@ Windows：
 ## 3. スクリプトの動作例  
 ### [3-1] スクリプト実行  
 ※次の画像の様に、PSDファイルを開いておき、スクリプトを実行します。  
-
 ![displayalllayers_web_001](https://user-images.githubusercontent.com/2978899/35427998-01df12f2-02b0-11e8-8c1b-7d7de5f9fce8.png)  
 
 ※この画像は自作の模写イラストのPSDファイルになります。  
@@ -64,8 +63,7 @@ Windows：
 [twitterのリンク先](https://twitter.com/KohFlag/status/928910956926615552 "Twitter")  
 
 ### [3-2] スクリプト実行後、最初の表示  
-スクリプトを実行すると、最初に次のウィンドウが画面左上に表示されます。  
-
+スクリプトを実行すると、最初に処理を促すウィンドウが画面左上に表示されます。  
 ![displayalllayers_web_002](https://user-images.githubusercontent.com/2978899/35428023-229b2378-02b0-11e8-83b4-2996b4fc90a8.png)  
 
 このウィンドウでOKボタンを押すと、ドキュメント内の全レイヤーの全レイヤーセットの取得処理が開始されます。  
