@@ -1,4 +1,4 @@
-# DisplayDocumentAllLayers-jsx  
+# DisplayDocumentAllLayers  
 
 ## 1. 概要  
 Adobe Photoshop用のスクリプトです。  
