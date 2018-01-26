@@ -45,9 +45,9 @@ Windows：
 
 #### [2-B-3] ファイル→スクリプトよりメニューを表示させると、配置したスクリプトファイルが出てくるので、実行します。  
 
-※スクリプトの実行時、PSDファイルは必ず1つ以上開いておいて下さい。
-※スクリプトにおける、ドキュメント内の全レイヤーと全レイヤーセットを取得する処理は、PSDファイルが1つ以上開かれている時にのみ可能です。
-※PSDファイルが1つも開かれていない状態でスクリプトを実行すると、メッセージが表示されてスクリプトが終了します([3-5-B]もご確認ください)。
+※スクリプトの実行時、PSDファイルは必ず1つ以上開いておいて下さい。　
+※スクリプトにおける、ドキュメント内の全レイヤーと全レイヤーセットを取得する処理は、PSDファイルが1つ以上開かれている時にのみ可能です。　
+※PSDファイルが1つも開かれていない状態でスクリプトを実行すると、メッセージが表示されてスクリプトが終了します([3-5-B]もご確認ください)。　
 
 - - -
 
@@ -55,7 +55,7 @@ Windows：
 ### [3-1] スクリプト実行
 ※次の画像の様に、PSDファイルを開いておき、スクリプトを実行します。
 
-![displayalllayers_web_001](https://user-images.githubusercontent.com/2978899/35427998-01df12f2-02b0-11e8-8c1b-7d7de5f9fce8.png)
+![displayalllayers_web_001](https://user-images.githubusercontent.com/2978899/35427998-01df12f2-02b0-11e8-8c1b-7d7de5f9fce8.png)  
 
 ※この画像は自作の模写イラストのPSDファイルになります。
 ※このPSDファイルから出力保存したイラスト画像を、次のリンク先に投稿していたりします。
@@ -64,12 +64,12 @@ Windows：
 ### [3-2] スクリプト実行後、最初の表示  
 スクリプトを実行すると、最初に次のウィンドウが画面左上に表示されます。  
 
-![displayalllayers_web_002](https://user-images.githubusercontent.com/2978899/35428023-229b2378-02b0-11e8-83b4-2996b4fc90a8.png)
+![displayalllayers_web_002](https://user-images.githubusercontent.com/2978899/35428023-229b2378-02b0-11e8-83b4-2996b4fc90a8.png)  
 
-このウィンドウでOKボタンを押すと、ドキュメント内の全レイヤーの全レイヤーセットの取得処理が開始されます。 → [3-3]へ続きます。　
-CANCELボタンを押すと、[3-3]以降の処理はキャンセルされ、次のメッセージが表示されて、スクリプト実行が終了します。　
+このウィンドウでOKボタンを押すと、ドキュメント内の全レイヤーの全レイヤーセットの取得処理が開始されます。 → [3-3]へ続きます。  
+CANCELボタンを押すと、[3-3]以降の処理はキャンセルされ、次のメッセージが表示されて、スクリプト実行が終了します。  
 
-![displayalllayers_web_006](https://user-images.githubusercontent.com/2978899/35428487-ab6c13ea-02b2-11e8-96f6-2c5fb3f70988.png)
+![displayalllayers_web_006](https://user-images.githubusercontent.com/2978899/35428487-ab6c13ea-02b2-11e8-96f6-2c5fb3f70988.png)  
 
 ### [3-3] ドキュメント(ファイル)内の全レイヤーと全レイヤーセットの取得処理  
 全レイヤーと全レイヤーセットの取得処理中は、プログレスバーのウィンドウで進捗状況を確認できます。　
@@ -82,29 +82,29 @@ CANCELボタンを押すと、[3-3]以降の処理はキャンセルされ、次
 
 ウィンドウには、全レイヤー数、全レイヤーセット数、全レイヤーと全レイヤーセットの合計数、　
 全レイヤーの一覧、全レイヤーセットの一覧が含まれています。
-![displayalllayers_web_003](https://user-images.githubusercontent.com/2978899/35428463-8cddaef2-02b2-11e8-9ce5-bba16e39b987.png)
+![displayalllayers_web_003](https://user-images.githubusercontent.com/2978899/35428463-8cddaef2-02b2-11e8-9ce5-bba16e39b987.png)  
 
 全レイヤーの一覧と全レイヤーセットの一覧はリストボックスに入っており、　
-スクロールバーで最初から最後まで確認可能です。
-![displayalllayers_web_004](https://user-images.githubusercontent.com/2978899/35428473-97b8df0e-02b2-11e8-92cd-b9cbe49ef7a8.png)
+スクロールバーで最初から最後まで確認可能です。  
+![displayalllayers_web_004](https://user-images.githubusercontent.com/2978899/35428473-97b8df0e-02b2-11e8-92cd-b9cbe49ef7a8.png)  
 
 このウィンドウでRETURNボタンを押すと、[3-2]のウィンドウが再表示され、　
 そこでOKボタンを押すと、[3-3]の処理を省略し(一度完了しており、結果が保持されている為)、このウィンドウが再表示されます。　
 RETURNボタンを押せば、何度でも[3-2]のウィンドウに戻る事ができます。　
 OKボタンを押すと、次のメッセージが表示されてスクリプト実行が終了します。　
 
-![displayalllayers_web_005](https://user-images.githubusercontent.com/2978899/35428479-9e838820-02b2-11e8-9929-57e7e194aba2.png)
+![displayalllayers_web_005](https://user-images.githubusercontent.com/2978899/35428479-9e838820-02b2-11e8-9929-57e7e194aba2.png)  
 
 ### [3-5] エラー表示  
-#### [3-5-A] 処理の結果、全レイヤーと全レイヤーセットの取得数が0の時
-次のエラーメッセージが表示されてスクリプトが終了します。
+#### [3-5-A] 処理の結果、全レイヤーと全レイヤーセットの取得数が0の時  
+次のエラーメッセージが表示されてスクリプトが終了します。  
 
-![displayalllayers_web_007](https://user-images.githubusercontent.com/2978899/35428493-b0d4145e-02b2-11e8-87e0-874d0e84073d.png)
+![displayalllayers_web_007](https://user-images.githubusercontent.com/2978899/35428493-b0d4145e-02b2-11e8-87e0-874d0e84073d.png)  
 
-![displayalllayers_web_008](https://user-images.githubusercontent.com/2978899/35428496-b5bb37f4-02b2-11e8-9c12-f6827db5ef5b.png)
+![displayalllayers_web_008](https://user-images.githubusercontent.com/2978899/35428496-b5bb37f4-02b2-11e8-9c12-f6827db5ef5b.png)  
 
 
-#### [3-5-B] PSDファイルが1つも開かれていない状態でスクリプトを実行した時
-次のエラーメッセージが表示されてスクリプトが終了します。
+#### [3-5-B] PSDファイルが1つも開かれていない状態でスクリプトを実行した時  
+次のエラーメッセージが表示されてスクリプトが終了します。  
 
-![displayalllayers_web_009](https://user-images.githubusercontent.com/2978899/35428504-c550d93a-02b2-11e8-969d-7145f62f11e2.png)
+![displayalllayers_web_009](https://user-images.githubusercontent.com/2978899/35428504-c550d93a-02b2-11e8-969d-7145f62f11e2.png)  
