@@ -52,7 +52,8 @@ Windows：
 ## 3. スクリプトの動作例
 ### [3-1] スクリプト実行
 ※次の画像の様に、PSDファイルを開いておき、スクリプトを実行します。
-(スクリプト実行に用いたPSDファイルの画像を追加)
+
+![displayalllayers_web_001](https://user-images.githubusercontent.com/2978899/35426363-c7a382da-02a5-11e8-9e67-406bc07944ab.png)
 
 ※この画像は自作の模写イラストのPSDファイルになります。このPSDファイルから出力保存したイラスト画像を、次のリンク先に投稿していたりします。
 [twitterのリンク先](https://twitter.com/KohFlag/status/928910956926615552 "Twitter")  
