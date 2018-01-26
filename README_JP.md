@@ -110,11 +110,15 @@ OKボタンを押すと、メッセージが表示されてスクリプト実行
 まず、取得数が0ですというメッセージが表示されて、  
 ![displayalllayers_web_007](https://user-images.githubusercontent.com/2978899/35428493-b0d4145e-02b2-11e8-87e0-874d0e84073d.png)  
 
-![displayalllayers_web_015](https://user-images.githubusercontent.com/2978899/35433203-e21e412a-02c5-11e8-98ca-2e241ed1b688.png)
+![displayalllayers_web_015](https://user-images.githubusercontent.com/2978899/35433203-e21e412a-02c5-11e8-98ca-2e241ed1b688.png)  
 
 次に処理がキャンセルされましたというメッセージが表示され、スクリプト実行が終了します。  
 ![displayalllayers_web_008](https://user-images.githubusercontent.com/2978899/35428496-b5bb37f4-02b2-11e8-9c12-f6827db5ef5b.png)  
 
+![displayalllayers_web_014](https://user-images.githubusercontent.com/2978899/35433194-d65512a6-02c5-11e8-9d02-fc5ae52e152f.png)  
+
 #### [3-5-B] PSDファイルが1つも開かれていない状態でスクリプトを実行した時  
 ファイルが開かれていないというメッセージが表示されてスクリプトが終了します。  
 ![displayalllayers_web_009](https://user-images.githubusercontent.com/2978899/35428504-c550d93a-02b2-11e8-969d-7145f62f11e2.png)  
+
+![displayalllayers_web_016](https://user-images.githubusercontent.com/2978899/35433208-e881c1d6-02c5-11e8-9e96-9d86ae878161.png)  
